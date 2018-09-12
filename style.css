@@ -1,0 +1,45 @@
+body {
+	margin: 0px;
+	background-color: #333;
+	color: white;
+}
+#parallax {
+	position: relative;
+	width: 100%;
+	padding: 200px 0;
+	text-align: center;
+	background: url('banner.gif') no-repeat center 10%;
+	background-size: 65%;
+	background-attachment: fixed;
+	background-color: white;
+}
+.header-container {
+	padding: 10px 10px;
+	background-color: white;
+	opacity: 0.95;
+}
+#nav {
+	top: 0;
+	width: 100%;
+	position: fixed;
+	margin: 0px;
+	z-index: 1;
+	display: flex;
+	background-color: #777;
+}
+#nav a, a:visited {
+	color: white;
+	flex-grow: 1;
+	font-family: Sans-serif;
+	font-size: 21px;
+	padding: 5px;
+	margin: 10px 5px 10px 5px;
+	background-color: #999;
+	text-align: center;
+	text-decoration: none;
+	transition: 100ms ease-in-out;
+}
+#nav a:hover {
+	flex-grow: 1.5;
+	background-color: #bbb;
+}
