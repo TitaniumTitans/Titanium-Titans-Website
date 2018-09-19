@@ -3,15 +3,29 @@ body {
 	background-color: #333;
 	color: white;
 }
+
+.center {text-align: center;}
+
 #parallax {
 	position: relative;
 	width: 100%;
-	padding: 200px 0;
+	padding: 300px 0;
 	text-align: center;
-	background: url('banner.gif') no-repeat center 10%;
-	background-size: 65%;
+	background: url('Images/paralax_numbers.jpg') no-repeat center -0%;
+	background-size: 100%;
 	background-attachment: fixed;
-	background-color: white;
+	background-color: black;
+}
+
+#parallax_2{
+	position: relative;
+	width: 100%;
+	padding: 350px 0;
+	text-align: center;
+	background: url('Images/paralax_helmet.jpg') no-repeat center 30%;
+	background-size: 100%;
+	background-attachment: fixed;
+	background-color: black;
 }
 .header-container {
 	padding: 10px 10px;
@@ -26,20 +40,122 @@ body {
 	z-index: 1;
 	display: flex;
 	background-color: #777;
+    padding-left: 5px;
+    padding-right: 5px;
 }
-#nav a, a:visited {
+.nav_a, a:visited {
 	color: white;
 	flex-grow: 1;
-	font-family: Sans-serif;
+	font-family: Calibri Light;
 	font-size: 21px;
 	padding: 5px;
 	margin: 10px 5px 10px 5px;
 	background-color: #999;
 	text-align: center;
 	text-decoration: none;
-	transition: 100ms ease-in-out;
+	transition: 500ms ease-in-out;
 }
 #nav a:hover {
 	flex-grow: 1.5;
 	background-color: #bbb;
 }
+
+.logo_image {
+    height:60px;
+    padding: 5px;
+}
+
+#slide_show_images{
+    
+}
+
+.mission{
+    background-color:white;
+    padding: 150px;
+    
+}
+
+.mission h1{
+    text-align: center;
+    color:black;
+    font-family: 'Raleway', sans-serif;
+    font-size:30px;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
+    font-weight:normal;
+    padding-left:250px;
+    padding-right: 250px
+}
+
+#quick_links{
+    padding:20px;
+    padding-bottom:80px;
+    background-color:#f9f9f9;
+    
+}
+
+#quick_links img{
+    height: 250px;
+    padding:5px;
+    
+    
+}
+
+#quick_links h1{
+    color:black;
+    font-family: Calibri Light;
+    font-weight:normal;
+}
+
+
+
+
+footer a:visited{
+    color:black;
+    
+    
+}
+#footer{
+    background-color:whitesmoke;
+    
+    
+}
+
+#footer img{
+    height:50px;
+    padding-bottom:20px;
+}
+
+#footer ul{
+    list-style: none;
+    color:black;
+    font-family:Calibri Light;
+    padding-top:25px;
+    font-size: 19px
+    
+}
+
+#footer li{
+    display: inline;
+}
+
+#slide_show{
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
