@@ -143,7 +143,31 @@ footer a:visited{
 }
 
 
+#faq{
+    padding: 150px;
+}
 
+#faq h1{
+    font-family: Calibri;
+    color: black;
+}
+
+#faq ul{
+    font-family: Calibri;
+    color: black;
+}
+
+#faq h2{
+    font-family: Calibri;
+    color: black;
+    
+}
+
+#faq p{
+    font-family: Calibri;
+    color: black;
+    
+}
 
 
 
