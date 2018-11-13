@@ -1,1 +1,1 @@
-ul.navbar-nav li.dropdown:hover > div.dropdown-menu {    display: block;  }ul.navbar-nav a.dropdown-item:hover {	background-color: #aaa;}.carousel-item img {	display: block;	margin: auto;	width: 90%;	height: 90%;}#carousel-row {	background-color: black;}
+ul.navbar-nav li.dropdown:hover > div.dropdown-menu {    display: block;  }ul.navbar-nav a.dropdown-item:hover {	background-color: #aaa;}.carousel-item img {	display: block;	margin: auto;	height: 50vh;}#carousel-row {	background-color: black;}
