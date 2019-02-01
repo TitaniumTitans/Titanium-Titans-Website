@@ -2,10 +2,10 @@ Options +FollowSymLinks
 RewriteEngine on
 # Redirect /page.php, /page.html, and /page.htm to /page
 RewriteRule ^(.+)\.(php|html|htm)\/*$ /$1 [R,L]
-# If the page is not a file or directory
+# If the page is not a file or directory...
 RewriteCond %{REQUEST_FILENAME} !-s
 RewriteCond %{REQUEST_FILENAME} !-d
-# Internally redirect /page to /index.php?page=page
+# Then internally redirect /page to /index.php?page=page
 RewriteRule ^(.*?)$ /index.php?page=$1 [QSA,NC,END]
 # Redirect /index to /
 Redirect /index /

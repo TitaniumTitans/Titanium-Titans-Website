@@ -19,7 +19,6 @@
 	</div>
 </div>
 <?php
-	include('database.php');
 	if (isset($_GET['email']) && isset($_GET['username']) && isset($_GET['password'])) {
 		$email = mysqli_real_escape_string($sql, $_GET['email']);
 		$username = mysqli_real_escape_string($sql, $_GET['username']);

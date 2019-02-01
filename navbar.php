@@ -53,7 +53,7 @@
 		<div class = 'd-flex container-fluid justify-content-start justify-content-lg-end'>
 			<ul class = 'navbar-nav'>
 				<li class = 'nav-item'>
-					<a href = '/join' class = 'nav-link'>Join</a>
+					<a href = '/team#join' class = 'nav-link'>Join</a>
 				</li>
 				<li class = 'nav-item'>
 					<a href = '/contact' class = 'nav-link'>Contact</a>
