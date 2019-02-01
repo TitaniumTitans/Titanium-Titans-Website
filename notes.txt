@@ -1,0 +1,45 @@
+page
+	id
+		auto-incremented
+	timestamp
+		auto-generated
+	type
+		auto-generated, html, php
+	url
+		should only contain file name excluding extensions
+	author
+		include user id
+	title
+		only a display name, not used for internal server stuff
+	content
+		content to be displayed
+user
+	id
+		auto-incremented
+	timestamp
+		auto-generated
+	type
+		member, mentor, admin
+	email
+		used to login
+	displayname
+		cosmetic only
+	password-salt
+		randomly generated for password security
+	password-hash
+		sha-512
+	resettoken
+		randomly generated, sent to email for user to set new password
+image
+	id
+		auto-incremented
+	timestamp
+		auto-generated
+	type
+		site, slideshow, media
+	author
+		user who uploaded image
+	title
+		purely cosmetic
+	path
+		path to image on disk
