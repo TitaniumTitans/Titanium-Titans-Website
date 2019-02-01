@@ -1,1 +1,1 @@
-ul.navbar-nav li.dropdown:hover > div.dropdown-menu {    display: block;  }ul.navbar-nav a.dropdown-item:hover {	background-color: #aaa;}.carousel-item img {	display: block;	margin: auto;	height: 50vh;}#carousel-row {	background-color: black;}
+/* @include media-breakpoint-up(md) { */	/* ul.navbar-nav li.dropdown:hover > div.dropdown-menu { */		/* display: block; */	/* } */	/* ul.navbar-nav a.dropdown-item:hover { */		/* background-color: #aaa; */	/* } *//* } */body {	height: 100vh;}
